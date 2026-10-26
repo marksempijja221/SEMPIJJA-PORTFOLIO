@@ -3,22 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href ="https:cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
     <title>GALLERY MARK</title>
+    <style>
+        img{
+            height: 80%;
+            width: 100%;
+        }
+    </style>
 </head>
-<body>
-    <video  width="600" controls><source src="videos/myvide.mp4" type="video/mp4">
-    Your Browser doesnot support the video elements</video>
+<body style="background-color: rgb(131, 157, 179);">
+    <nav class ="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" class ="navbar sticky-top"><a class="navbar-brand fw-bold" href="about.html">ABOUT ME</a> <a class="navbar-brand fw-bold"href="index.html">MY INTRO </a> <a class="navbar-brand fw-bold" href="contacts.html">CONTACT ME </a></nav>
+   <video controls width="100%" height="100%" >
+    <source src="vid.mp4" type="video/mp4">
+    your browser doesnot support videos here...
+   </video>
     <div class="container py-4">
         <div class="row g-3">
             <div class="col-12 col-sm-6 col-lg-4">
-                <img src="" alt="">
+                <figure>
+            <img src="./images/insp.jpg" alt="own these">
+             <figcaption>Creating a software home for you</figcaption>
+                </figure>
+               
+                <h3> </h3>
             </div>
             <div class="col-12 col-sm-6 col-lg-4">
-                <img src="" alt="">
+            <figure>
+                    <img src="./images/mount.jpg" alt="vacate sometimes">
+                    <figcaption>
+                    Software sstems that reach the sky
+                    </figcaption>
+            </figure>
             </div>
             <div class="col-12 col-sm-6 col-lg-4">
-                <img src="" alt="">
+                <figure>
+                    <img src="./images/oper.jpg" alt="waterflow direction">
+                    <figcaption>
+                        Systems that offer smoothness to your flow
+                    </figcaption>
+                </figure>
             </div>
+              <div class="col-12 col-sm-6 col-lg-4">
+                <figure>
+              <img src="./images/work.jpg" alt="workplace image">
+              <figcaption>Implement your perfect work environment</figcaption>
+                </figure>
+              
+            </div>
+            
         </div>
 
     </div>

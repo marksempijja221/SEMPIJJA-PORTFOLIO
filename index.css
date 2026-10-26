@@ -1,0 +1,117 @@
+.cardi{
+    width:28%;
+    float:left;
+    background-color:rgba(0, 0, 0, 0.801);
+    margin :2%;
+    padding:0.5%;
+      border-radius: 5%;
+      font-weight: bold;
+    
+}
+
+.right{
+    float:right;
+}
+.whatsapp-btn{
+    background-color: rgb(13, 163, 13);
+    color:whitesmoke;
+    font-size: 190%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    margin:3%;
+    padding: 1%;
+    border-radius: 5%;
+    
+}
+.cardi1{
+    float:none;
+     background-color:rgba(0, 0, 0, 0.801);
+    margin :0 auto;
+    padding:2%;
+    height:50%;
+     width:28%;
+     border-radius: 5%;
+     font-weight: bold;
+
+}
+.had{
+    color :antiquewhite;
+    background-color: rgb(4, 153, 4);
+    text-align: left;
+    border-radius: 1%;
+    width: 60%;
+    margin-left: 5%;
+    padding-left:3% ;
+}
+.cardi:hover ,.cardi1:hover{
+    transform: translateY(-5%);
+    font-size: 100%;
+    color:rgb(167, 96, 4);
+    font-weight: bold;
+}
+
+.whatsapp-btn :hover{
+       transform:translateY(-25px);
+      
+       
+}.pra {
+    background-color: rgb(182, 170, 170);
+    color: rgb(17, 6, 6);
+   border :12px solid rgb(2 6, 24, 24);
+   padding : 2%;
+   font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS';
+   font-size: 120%;
+   border-radius: 4%;
+   width:85%;
+   margin-left: 8%;
+}
+.text {
+    width:47%;
+   font-weight: bold;
+    float:left;
+    margin: 2%;
+    height: 80%;
+    font-size: 120;
+  
+}
+label,input,textarea
+{
+font-size: 120%;
+   border-radius: 4%;
+   margin-bottom:1.6%;
+   font-weight: bold;
+
+   
+}
+.hed{
+    text-align: center;
+    background-color: rgb(7, 99, 99);
+    padding: 6%;
+    width: 100%;
+    transform: translateZ(45%);
+    font-weight: bold;
+   
+}
+label:focus ,input:focus {
+
+    color: rgb(7, 99, 99);
+   border :5% solid rgb(2 6, 24, 24);
+   padding : 0.4%;
+   font-size: 110%;
+   font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS';
+   border-color: aqua;
+   
+}
+
+.form{
+    background-color: rgb(235, 232, 229);
+    
+    float: right;
+    padding: 3%;
+}
+.li{
+    margin-bottom: 3%;
+    
+}
+h4{
+    color: white;
+}
